@@ -8,10 +8,10 @@
 
 	    public function __construct()
 	    {
-	        $this->servername = "localhost";
+	        $this->servername = "localhost:3308";
 	        $this->username = "root";
-	        $this->password = "mangoit";
-	        $this->dbname = "Pilot_Project_Shivam";
+	        $this->password = "";
+	        $this->dbname = "Pilot_Project";
 	    }
 	    public function connect()
 	    {  
